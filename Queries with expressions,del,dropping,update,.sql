@@ -77,4 +77,4 @@ DELETE FROM movies where director = "Andrew Stanton";
 
 --Dropping tables
 DROP TABLE Movies;
-DROP TABLE BoxOffice;
+DROP TABLE BoxOffice;c

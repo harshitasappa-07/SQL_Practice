@@ -24,6 +24,5 @@ SELECT * FROM north_american_cities;
 SELECT cities,population FROM cities WHERE country ='Canadian';
 SELECT city, laltitude FROM north_american_cities WHERE country = "United States" ORDER BY latitude ASC;
 SELECT cities,longitude FROM north_american_cities WHERE longitude < -87.629798 ORDER BY longitude ASC;
-SELECT city,population FROM north_american_cities WHERE Country LIKE 'MEXICO'
-ORDER BY population LIMIT 2;
+SELECT city,population FROM north_american_cities WHERE Country LIKE 'MEXICO  ORDER BY population LIMIT 2;
 SELECT city,population FROM north_american_cities WHERE country Like 'united states' ORDER BY population DESC LIMIT 2 OFFSET 2;

@@ -25,3 +25,6 @@ SELECT title,director ,year FROM movies WHERE Director ='John Lasseter';
 SELECT title,director FROM movies WHERE Director != 'John Lasseter';
 SELECT DISTINCT title FROM movies ORDER BY title ASC;
 SELECT title, year FROM movies ORDER BY year DESC LIMIT 4;
+--ALtering tables
+ALTER TABLE Movies ADD COLUMN Aspect_ratio FLOAT DEFAULT 2.39;
+ALTER TABLE Movies ADD COLUMN Language TEXT DEFAULT "English";
